@@ -1,12 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Aarya%20Vaidya&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=AI%20Agent%20Developer%20%7C%20Full%20Stack%20Engineer&descAlignY=56&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Aarya%20Vaidya&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20Agent%20Developer%20%7C%20Full%20Stack%20Engineer&descAlignY=58&descSize=20" width="100%"/>
 
-</div>
+<img src="https://komarev.com/ghpvc/?username=rajaaryan779&label=Profile%20Views&color=6E57F7&style=for-the-badge" alt="Profile Views"/>
 
-<div align="center">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=800&color=6E57F7&center=true&vCenter=true&width=750&lines=Reduced+RAG+latency+200ms+%E2%86%92+12ms+%E2%80%94+FAISS+%2B+sentence-transformer+cache;JWT+validation+15ms+%E2%86%92+%3C1ms+%E2%80%94+token+caching+in+production;%F0%9F%8F%86+Pixii.ai+Founding+Engineer+Shortlist+%E2%80%94+Top+25+Globally;3+Internships+%7C+6%2B+Production+Projects+%7C+19+AI+Workflows;LangGraph+%C2%B7+FAISS+%C2%B7+Groq+%C2%B7+FastAPI+%C2%B7+Next.js+%C2%B7+Three.js)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=6E57F7&center=true&vCenter=true&width=700&lines=Reduced+RAG+latency+200ms+%E2%86%92+12ms+using+FAISS+IndexFlatIP;Cut+JWT+validation+15ms+%E2%86%92+%3C1ms+via+token+caching;Shortlisted+Top+25+%E2%80%94+Pixii.ai+Founding+Engineer+2026;3+Internships+%7C+6%2B+Production+Projects+%7C+19+AI+Workflows;LangGraph+%C2%B7+FAISS+%C2%B7+Groq+%C2%B7+FastAPI+%C2%B7+Next.js+%C2%B7+Three.js)](https://git.io/typing-svg)
+<br/>
+
+[![Open to Work](https://img.shields.io/badge/Open%20to-Internships%20%26%20Full%20Time-brightgreen?style=for-the-badge&logo=briefcase&logoColor=white)](#connect)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-6E57F7?style=for-the-badge&logo=vercel&logoColor=white)](https://aarya-portfolio-kohl.vercel.app)
 
 </div>
 
@@ -15,35 +18,60 @@
 ## At a Glance
 
 ```
-🏆  Pixii.ai Founding Engineer Shortlist — Top 25 globally (2026)
-🥈  2nd Prize, PCU InnovateX 2025 — Engineers' Day, CSE Dept.
-⚡  20x RAG latency improvement: 200–300ms → 10–15ms (FAISS + sentence-transformer cache)
-🔐  15x JWT speedup: 15ms → <1ms via token caching (DreamHome platform)
-🤖  3 AI internships in 12 months — PrimetradeAI · ServiceHive · Elevate Labs
-📦  19 production AI workflows shipped (RAG · multi-agent · WhatsApp/Telegram bots)
+🏆  Pixii.ai Founding Engineer Shortlist — Top 25 Globally (2026)
+🥈  2nd Prize — PCU InnovateX 2025, Engineers' Day (CSE Dept.)
+⚡  20× RAG latency drop: 200–300ms → 10–15ms  (FAISS IndexFlatIP + cached embeddings)
+🔐  15× JWT speedup: 15ms → <1ms              (token caching, production DreamHome)
+🤖  3 AI internships in 12 months             (PrimetradeAI · ServiceHive · Elevate Labs)
+📦  19 production AI workflows shipped        (RAG · agents · WhatsApp/Telegram bots)
+🎓  B.Tech CSE (AI & ML) — Pimpri Chinchwad University, 2027
 ```
 
 ---
 
-## Currently Building
+## What I'm Building Right Now
 
-> **[Rlook](https://github.com/rajaaryan779)** — AI virtual try-on app. Users see clothes on their live hologram using MediaPipe body segmentation + Three.js WebGL rendering. No existing product does this at this level on web.
+<div align="center">
 
-`Next.js 15` · `Three.js` · `MediaPipe` · `FastAPI` · `PostgreSQL` · `Stripe`
+| | Project | Status |
+|---|---|---|
+| 🚀 | **[Rlook](https://github.com/rajaaryan779)** — AI virtual try-on. Live hologram of you. Try clothes before buying. | `In Progress` |
+
+</div>
+
+> Next.js 15 · Three.js WebGL · MediaPipe Body Segmentation · FastAPI · PostgreSQL · Stripe
+>
+> *The only web app that renders a real-time 3D hologram of the user and overlays fashion items using body pose tracking — no existing product does this on web.*
 
 ---
 
 ## Experience
 
-### PrimetradeAI · Python Developer Intern `2026`
-Built a CLI trading bot for Binance Futures Testnet — HMAC-SHA256 signed REST API, order atomicity, crash recovery, and concurrent order serialization with `asyncio.Lock`.
+<table>
+<tr>
+<td>
 
-### ServiceHive · AI Agent Developer Intern `2026`
-Built **AutoStream Agent** — LangGraph orchestration + FAISS RAG + Groq LLaMA 3.3 70B.
-**Achieved 20× RAG latency reduction: 200–300ms → 10–15ms** via FAISS IndexFlatIP with cached sentence-transformer embeddings.
+### 🏢 PrimetradeAI · Python Developer Intern `2026`
+Built CLI trading bot — Binance Futures Testnet, HMAC-SHA256 signed REST, `asyncio.Lock` order serialization, crash recovery.
 
-### Elevate Labs · AI Intern `2025`
-End-to-end stock price forecasting — LSTM, time series feature engineering (MA, RSI, lag features) on real financial datasets.
+</td>
+<td>
+
+### 🏢 ServiceHive · AI Agent Developer Intern `2026`
+**AutoStream Agent** — LangGraph + FAISS RAG + Groq LLaMA 3.3 70B.
+**20× latency reduction: 200–300ms → 10–15ms.**
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### 🏢 Elevate Labs · AI Intern `2025`
+End-to-end stock forecasting — LSTM + time series feature engineering (MA, RSI, lag features) on real financial data.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -53,56 +81,57 @@ End-to-end stock price forecasting — LSTM, time series feature engineering (MA
 <tr>
 <td width="50%">
 
-**[AEO Diagnostic Tool](https://github.com/rajaaryan779/aeo-diagnostic)**
+### [AEO Diagnostic Tool](https://github.com/rajaaryan779/aeo-diagnostic)
 `FastAPI · Gemini 2.5 Flash · OpenRouter · Vercel`
 
-Queries 3 LLMs simultaneously to measure product visibility in AI search. Returns 0–100 score + A–F grade + improvement plan.
-Built for Pixii.ai founding engineer application → **shortlisted top 25**.
+Queries 3 LLMs simultaneously for product AI search visibility. Returns 0–100 score + A–F grade + improvement plan.
+
+🏆 **Built for Pixii.ai — Shortlisted Top 25 globally**
 
 </td>
 <td width="50%">
 
-**Grid07 — Cognitive Routing & RAG Engine**
+### Grid07 — Cognitive Routing & RAG Engine
 `LangGraph · FAISS · Groq · Python`
 
-3-phase AI system: FAISS persona router → LangGraph content engine with JSON-enforced output → RAG combat engine with prompt injection defense.
+3-phase AI system: FAISS persona router → LangGraph autonomous content engine (JSON-enforced) → RAG engine with **prompt injection defense + persona-lock header**.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**DreamHome — Real Estate Platform**
+### DreamHome — Real Estate Platform
 `FastAPI · Next.js · PostgreSQL · Leaflet · JWT`
 
-Full-stack platform with JWT auth, property listings, image uploads, interactive maps.
-**JWT caching: 15ms → <1ms validation latency.** Zero-downtime Alembic migrations.
+Full-stack with JWT auth, property listings, image uploads, interactive maps.
+**Caching: 15ms → <1ms JWT validation. Zero-downtime Alembic migrations.**
 
 </td>
 <td width="50%">
 
-**AI Automation Suite — 19 Workflows**
+### AI Automation Suite — 19 Workflows
 `n8n · LangChain · Pinecone · Whisper · Gemini`
 
-Production pipelines: Google Drive → Pinecone → Gemini RAG, multi-agent bots with per-user memory namespacing, WhatsApp + Telegram bots, Whisper voice transcription.
+Google Drive → Pinecone → Gemini RAG, multi-agent bots with **per-user memory namespacing**, WhatsApp + Telegram bots, Whisper voice transcription.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**VisionNet & SentimentIQ**
+### VisionNet & SentimentIQ
 `TensorFlow · Keras · CNN · NLTK · Flask`
 
-CNN classifier with **+12% accuracy gain via augmentation**. NLP sentiment pipeline at **85%+ accuracy on 10,000+ records**, cutting manual analysis effort by 60%.
+**+12% CNN accuracy** via augmentation. NLP sentiment at **85%+ on 10K+ records** — 60% less manual effort.
 
 </td>
 <td width="50%">
 
-**Binance Futures Trading Bot**
-`Python · asyncio · HMAC-SHA256 · REST`
+### Binance Futures Trading Bot
+`Python · asyncio · HMAC-SHA256`
 
-Production-grade trading bot with signed API auth, concurrent order serialization, crash recovery, and testnet validation.
+Production-grade: signed auth, concurrent order serialization, crash recovery, testnet-validated.
 
 </td>
 </tr>
@@ -112,7 +141,7 @@ Production-grade trading bot with signed API auth, concurrent order serializatio
 
 ## Tech Stack
 
-**AI / ML / Agents**
+**AI / Agents / LLMs**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logoColor=white)
@@ -165,7 +194,31 @@ Production-grade trading bot with signed API auth, concurrent order serializatio
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=rajaaryan779&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=rajaaryan779&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajaaryan779&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rajaaryan779/rajaaryan779/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajaaryan779/rajaaryan779/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/rajaaryan779/rajaaryan779/output/github-contribution-grid-snake.svg"/>
+</picture>
 
 </div>
 
@@ -182,5 +235,5 @@ Production-grade trading bot with signed API auth, concurrent order serializatio
 </div>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
 </div>
