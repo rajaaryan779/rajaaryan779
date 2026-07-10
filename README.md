@@ -18,12 +18,13 @@
 ## At a Glance
 
 ```
+🎯  Signature — I make LLMs refuse rather than fabricate: grounded generation + hallucination guards
 🏆  Pixii.ai Founding Engineer Shortlist — Top 25 Globally (2026)
 🥈  2nd Prize — PCU InnovateX 2025, Engineers' Day (CSE Dept.)
-⚡  20× RAG latency drop: 200–300ms → 10–15ms  (FAISS IndexFlatIP + cached embeddings)
-🔐  15× JWT speedup: 15ms → <1ms              (token caching, production DreamHome)
-🤖  4 AI internships in 12 months             (OyeLabs · PrimetradeAI · ServiceHive · Elevate Labs)
-📦  19 production AI workflows shipped        (RAG · agents · WhatsApp/Telegram bots)
+⚡  17× latency drop on Jenna — ~1,950ms → ~115ms via a deterministic chat fast-path
+🔐  Multi-tenant SaaS (MEE) — Postgres Row-Level Security across 8 tables
+🤖  Production LLM features shipped at OyeLabs — Jenna · WhatsCRM · MEE
+📦  19 production AI workflows shipped — RAG · agents · WhatsApp/Telegram bots
 🎓  B.Tech CSE (AI & ML) — Pimpri Chinchwad University, 2027
 ```
 
@@ -35,13 +36,15 @@
 
 | | Project | Status |
 |---|---|---|
+| 🎯 | **[Ai-Prashashan](https://github.com/rajaaryan779/Ai-Prashashan)** — retrieval-grounded Gemini assistant over 440+ govt resolutions; answers only from source text, refuses when unsupported. | `Shipped` |
+| 🏢 | **[Market Expansion Engine](https://github.com/rajaaryan779/MEE)** — multi-tenant B2B lead-gen & AI outreach SaaS, tenant-isolated by Postgres RLS. | `Shipped` |
 | 🚀 | **[Rlook](https://github.com/rajaaryan779)** — AI virtual try-on. Live hologram of you. Try clothes before buying. | `In Progress` |
 
 </div>
 
-> Next.js 15 · Three.js WebGL · MediaPipe Body Segmentation · FastAPI · PostgreSQL · Stripe
+> Kotlin · Jetpack Compose · Gemini · Next.js · Supabase RLS · n8n · Groq · Three.js · MediaPipe
 >
-> *The only web app that renders a real-time 3D hologram of the user and overlays fashion items using body pose tracking — no existing product does this on web.*
+> *A through-line across my work: LLM systems grounded in real data — so they cite sources and refuse rather than hallucinate.*
 
 ---
 
@@ -51,8 +54,8 @@
 <tr>
 <td colspan="2">
 
-### 🏢 OyeLabs Technologies · AI Automation Intern `2026`
-Building production AI automation workflows for enterprise clients using n8n, LangChain, Gemini, and Pinecone. Delivering end-to-end agentic AI solutions independently.
+### 🏢 OyeLabs Technologies · AI Engineering Intern `2026 – Present`
+Shipping production LLM features end to end. **Jenna** (AI financial coaching) — a deterministic chat fast-path (**17× p50 latency drop**) plus a **fabrication guard** that grounds every dollar figure against real transaction data. **WhatsCRM** — OpenAI-embeddings ingestion into Supabase pgvector for semantic reply suggestions. **MEE** — a multi-tenant B2B outreach SaaS secured by Postgres Row-Level Security.
 
 </td>
 </tr>
@@ -86,6 +89,24 @@ End-to-end stock forecasting — LSTM + time series feature engineering (MA, RSI
 ## Projects
 
 <table>
+<tr>
+<td width="50%">
+
+### [Ai-Prashashan — Grounded GR Assistant](https://github.com/rajaaryan779/Ai-Prashashan)
+`Kotlin · Jetpack Compose · Gemini · Firebase · Cloudflare R2`
+
+Marathi Android app for Maharashtra govt employees. Retrieval-grounded Gemini assistant over **440+ Government Resolutions** (TF-IDF/IDF, Marathi-aware tokenizer). **Strict grounding guard** — answers only from GR text, cites the source PDF, refuses when unsupported.
+
+</td>
+<td width="50%">
+
+### [Market Expansion Engine (MEE)](https://github.com/rajaaryan779/MEE)
+`Next.js · TypeScript · Supabase (Postgres + RLS) · n8n · Groq`
+
+Multi-tenant B2B lead-gen & AI outreach SaaS. **Row-Level Security across 8 tables** with a security-invoker view — tenant isolation enforced by Postgres. Thin Next.js control plane offloads scrape/crawl/LLM work to n8n; live dashboard via Supabase Realtime.
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
