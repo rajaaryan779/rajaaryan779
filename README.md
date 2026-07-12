@@ -36,13 +36,13 @@
 
 | | Project | Status |
 |---|---|---|
-| 🎯 | **[Ai-Prashashan](https://github.com/rajaaryan779/Ai-Prashashan)** — retrieval-grounded Gemini assistant over 440+ govt resolutions; answers only from source text, refuses when unsupported. | `Shipped` |
+| 🎯 | **[Ai-Prashashan](https://github.com/rajaaryan779/Ai-Prashashan)** — retrieval-grounded Nemotron assistant over 440+ govt resolutions; answers only from source text, refuses when unsupported. | `Shipped` |
 | 🏢 | **[Market Expansion Engine](https://github.com/rajaaryan779/MEE)** — multi-tenant B2B lead-gen & AI outreach SaaS, tenant-isolated by Postgres RLS. | `Shipped` |
 | 🚀 | **[Rlook](https://github.com/rajaaryan779)** — AI virtual try-on. Live hologram of you. Try clothes before buying. | `In Progress` |
 
 </div>
 
-> Kotlin · Jetpack Compose · Gemini · Next.js · Supabase RLS · n8n · Groq · Three.js · MediaPipe
+> Kotlin · Jetpack Compose · Nemotron · Next.js · Supabase RLS · n8n · Groq · Three.js · MediaPipe
 >
 > *A through-line across my work: LLM systems grounded in real data — so they cite sources and refuse rather than hallucinate.*
 
@@ -78,9 +78,9 @@ End-to-end stock forecasting — LSTM + time series feature engineering (MA, RSI
 <td width="50%">
 
 ### [Ai-Prashashan — Grounded GR Assistant](https://github.com/rajaaryan779/Ai-Prashashan)
-`Kotlin · Jetpack Compose · Gemini · Firebase · Cloudflare R2`
+`Kotlin · Jetpack Compose · NVIDIA Nemotron 3 Ultra · Firebase · Cloudflare R2`
 
-Marathi Android app for Maharashtra govt employees. Retrieval-grounded Gemini assistant over **440+ Government Resolutions** (TF-IDF/IDF, Marathi-aware tokenizer). **Strict grounding guard** — answers only from GR text, cites the source PDF, refuses when unsupported.
+Marathi Android app for Maharashtra govt employees. Retrieval-grounded Nemotron assistant over **440+ Government Resolutions** (TF-IDF/IDF, Marathi-aware tokenizer). **Strict grounding guard** — answers only from GR text, cites the source PDF, refuses when unsupported.
 
 </td>
 <td width="50%">
