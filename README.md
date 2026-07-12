@@ -60,21 +60,6 @@ Shipping production LLM features end to end. **Jenna** (AI financial coaching) �
 </td>
 </tr>
 <tr>
-<td>
-
-### 🏢 PrimetradeAI · Python Developer Intern `2026`
-Built CLI trading bot — Binance Futures Testnet, HMAC-SHA256 signed REST, `asyncio.Lock` order serialization, crash recovery.
-
-</td>
-<td>
-
-### 🏢 ServiceHive · AI Agent Developer Intern `2026`
-**AutoStream Agent** — LangGraph + FAISS RAG + Groq LLaMA 3.3 70B.
-**20× latency reduction: 200–300ms → 10–15ms.**
-
-</td>
-</tr>
-<tr>
 <td colspan="2">
 
 ### 🏢 Elevate Labs · AI Intern `2025`
@@ -149,18 +134,28 @@ Google Drive → Pinecone → Gemini RAG, multi-agent bots with **per-user memor
 <tr>
 <td width="50%">
 
-### VisionNet & SentimentIQ
-`TensorFlow · Keras · CNN · NLTK · Flask`
+### [AutoStream Agent](https://github.com/rajaaryan779/autostream_agent) <sub>(ServiceHive)</sub>
+`LangGraph · Gemini · Python`
 
-**+12% CNN accuracy** via augmentation. NLP sentiment at **85%+ on 10K+ records** — 60% less manual effort.
+Social-to-lead qualification agent: a 4-node LangGraph state machine (detect intent → collect → extract lead → respond) with keyword-grounded retrieval over a local knowledge base, typed state, and structured lead extraction.
 
 </td>
 <td width="50%">
 
-### Binance Futures Trading Bot
-`Python · asyncio · HMAC-SHA256`
+### [Binance Futures Trading Bot](https://github.com/rajaaryan779/trading_bot) <sub>(PrimetradeAI)</sub>
+`Python · Binance API · REST`
 
-Production-grade: signed auth, concurrent order serialization, crash recovery, testnet-validated.
+Testnet order CLI with HMAC-SHA256 signed REST calls, input validation, structured logging, and modular market/limit order execution.
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### VisionNet & SentimentIQ
+`TensorFlow · Keras · CNN · NLTK · Flask`
+
+**+12% CNN accuracy** via augmentation. NLP sentiment at **85%+ on 10K+ records** — 60% less manual effort.
 
 </td>
 </tr>
