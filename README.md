@@ -60,14 +60,6 @@ Shipping production LLM features end to end. **Jenna** (AI financial coaching) �
 
 </td>
 </tr>
-<tr>
-<td colspan="2">
-
-### 🏢 Elevate Labs · AI Intern `2025`
-End-to-end stock forecasting — LSTM + time series feature engineering (MA, RSI, lag features) on real financial data.
-
-</td>
-</tr>
 </table>
 
 ---
