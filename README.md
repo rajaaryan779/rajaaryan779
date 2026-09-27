@@ -21,6 +21,7 @@
 🎯  Signature — I make LLMs refuse rather than fabricate: grounded generation + hallucination guards
 🏆  Pixii.ai Founding Engineer Shortlist — Top 25 Globally (2026)
 🥈  2nd Prize — PCU InnovateX 2025, Engineers' Day (CSE Dept.)
+🐙  Anything But Octopus — audited a multi-agent coding pipeline: 3 prod bugs fixed, race condition found
 ⚡  17× latency drop on Jenna — ~1,950ms → ~115ms via a deterministic chat fast-path
 🔐  Multi-tenant SaaS (MEE) — Postgres Row-Level Security across 8 tables
 🤖  Production LLM features shipped at OyeLabs — Jenna · WhatsCRM · MEE
@@ -74,6 +75,16 @@ End-to-end stock forecasting — LSTM + time series feature engineering (MA, RSI
 ## Projects
 
 <table>
+<tr>
+<td colspan="2">
+
+### Anything But Octopus — Multi-Agent Pipeline Reliability Audit
+`TypeScript · Node.js · Express · React`
+
+Independent architecture and reliability audit of a **multi-agent autonomous coding pipeline**. **Fixed 3 production bugs**; found a **cross-mission race condition** (no repo-level locking between concurrent AI missions) and an unbounded-concurrency scaling gap. Designed **per-repo locking**, a **shared concurrency governor**, and an **ephemeral-clone landing model**.
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
