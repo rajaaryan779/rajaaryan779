@@ -21,7 +21,7 @@
 🎯  Signature — I make LLMs refuse rather than fabricate: grounded generation + hallucination guards
 🏆  Pixii.ai Founding Engineer Shortlist — Top 25 Globally (2026)
 🥈  2nd Prize — PCU InnovateX 2025, Engineers' Day (CSE Dept.)
-🐙  Anything But Octopus — audited a multi-agent coding pipeline: 3 prod bugs fixed, race condition found
+🐙  Anything But Octopus (OyeLabs) — audited a multi-agent coding pipeline: 3 prod bugs fixed, race condition found
 ⚡  17× latency drop on Jenna — ~1,950ms → ~115ms via a deterministic chat fast-path
 🔐  Multi-tenant SaaS (MEE) — Postgres Row-Level Security across 8 tables
 🤖  Production LLM features shipped at OyeLabs — Jenna · WhatsCRM · MEE
@@ -56,7 +56,7 @@
 <td colspan="2">
 
 ### 🏢 OyeLabs Technologies · AI Engineering Intern `2026 – Present`
-Shipping production LLM features end to end. **Jenna** (AI financial coaching) — a deterministic chat fast-path (**17× p50 latency drop**) plus a **fabrication guard** that grounds every dollar figure against real transaction data. **WhatsCRM** — OpenAI-embeddings ingestion into Supabase pgvector for semantic reply suggestions. **MEE** — a multi-tenant B2B outreach SaaS secured by Postgres Row-Level Security.
+Shipping production LLM features end to end. **Jenna** (AI financial coaching) — a deterministic chat fast-path (**17× p50 latency drop**) plus a **fabrication guard** that grounds every dollar figure against real transaction data. **WhatsCRM** — OpenAI-embeddings ingestion into Supabase pgvector for semantic reply suggestions. **MEE** — a multi-tenant B2B outreach SaaS secured by Postgres Row-Level Security. **Anything But Octopus** — reliability audit and hardening of an autonomous multi-agent coding pipeline (ongoing).
 
 </td>
 </tr>
@@ -70,8 +70,10 @@ Shipping production LLM features end to end. **Jenna** (AI financial coaching) �
 <tr>
 <td colspan="2">
 
-### Anything But Octopus — Multi-Agent Pipeline Reliability Audit
+### Anything But Octopus — Multi-Agent Pipeline Reliability Audit <sub>(OyeLabs · private · ongoing)</sub>
 `TypeScript · Node.js · Express · React`
+
+A local, loopback-only system that turns a plain-English scope and task list into real code across a product's repositories — driven end to end by one AI agent (Claude Code or Codex) in an autonomous session, with a human approving only QA-derived repairs and the final push. Built and maintained as part of my OyeLabs internship; the code is private to the company.
 
 Independent architecture and reliability audit of a **multi-agent autonomous coding pipeline**. **Fixed 3 production bugs**; found a **cross-mission race condition** (no repo-level locking between concurrent AI missions) and an unbounded-concurrency scaling gap. Designed **per-repo locking**, a **shared concurrency governor**, and an **ephemeral-clone landing model**.
 
