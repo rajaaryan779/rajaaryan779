@@ -1,0 +1,13 @@
+{
+  "name": "chaseup",
+  "version": "0.1.0",
+  "description": "Invoice tracking and payment-reminder drafting for freelancers and small businesses.",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
